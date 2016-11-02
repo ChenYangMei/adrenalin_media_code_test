@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.logo{
+  padding-top: 25px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+.logo img{
+  width: 40%;
+}
+
+.make_logo_bigger{
+  height: 100px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)),
+    url(img/hero_mobile.jpg);
+  background-size: 130%;
+  background-position: right;
+  opacity: .8;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.make_logo_bigger h1{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+main {
+  margin: 40px 0;
+}
+
+main h2{
+  padding-bottom: 20px;
+  margin: 0 20px;
+}
+
+main hr{
+  background-color: #ed202a;
+  width: 60px;
+  height: 6px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+main p{
+  padding: 20px 0;
+}
+
+main p:not(.photo){
+  margin: 0 20px;
+}
+
+.photo img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer{
+  background-color: #000;
+  height: 700px;
+}
+
+@media (min-width: 320px){
+
+}
